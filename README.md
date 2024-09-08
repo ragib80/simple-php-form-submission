@@ -1,9 +1,9 @@
-
 # Project Installation and Setup Instructions
 
-## Step 1: Ensure Required Software is Installed
+## Step 1: Ensure Required PHP Version is Installed
 
 1. **PHP:**
+
    - Ensure PHP 8.1.0 or higher is installed on your system.
    - If PHP is not installed or your version is lower than 8.1.0, please install or upgrade to PHP 8.1.0 or higher.
 
@@ -44,6 +44,7 @@
 
 1. Start your web server (e.g., WAMP, XAMPP).
 2. Open a web browser and navigate to the following URLs:
+
    - [http://localhost/dashboard](http://localhost/dashboard) - To view the Dashboard page.
    - [http://localhost/submission/list](http://localhost/submission/list) - To view the Submission List page.
    - [http://localhost/submission/create](http://localhost/submission/create) - To view the Submission Create page.
