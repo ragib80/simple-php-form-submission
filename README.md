@@ -22,6 +22,7 @@
    ```bash
    composer install
    ```
+   N.B: There is no file or folder in .gitignore so you can skip this step 3.
 
 ## Step 4: Create the Database
 
