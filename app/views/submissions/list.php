@@ -82,6 +82,7 @@
                                     <th>Amount</th>
                                     <th>Receipt ID</th>
                                     <th>Buyer Email</th>
+                                    <th>Items</th>
                                     <th>City</th>
                                     <th>Phone</th>
                                     <th>Submitted At</th>
@@ -96,6 +97,7 @@
                                             <td><?= htmlspecialchars($submission['amount']); ?></td>
                                             <td><?= htmlspecialchars($submission['receipt_id']); ?></td>
                                             <td><?= htmlspecialchars($submission['buyer_email']); ?></td>
+                                            <td><?= htmlspecialchars($submission['items']); ?></td>
                                             <td><?= htmlspecialchars($submission['city']); ?></td>
                                             <td><?= htmlspecialchars($submission['phone']); ?></td>
                                             <td><?= htmlspecialchars($submission['entry_at']); ?></td>

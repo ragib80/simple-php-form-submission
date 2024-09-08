@@ -20,6 +20,7 @@ $(document).ready(function () {
                                 <td>${submission.amount}</td>
                                 <td>${submission.receipt_id}</td>
                                 <td>${submission.buyer_email}</td>
+                                <td>${submission.items}</td>
                                 <td>${submission.city}</td>
                                 <td>${submission.phone}</td>
                                 <td>${submission.entry_at}</td>

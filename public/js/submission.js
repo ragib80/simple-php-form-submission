@@ -31,6 +31,7 @@ $(document).ready(function () {
         var item = $('#items_0').val();
         if (!/^[A-Za-z]+$/.test(item)) {
             $("#error_items").text("Items should only contain text");
+            valid = false;
         } else {
             $("#error_items").text("");
         }
@@ -95,6 +96,7 @@ $(document).ready(function () {
             } 
             if (!/^[A-Za-z]+$/.test(item)) {
                 $("#error_items_" + itemIndex).text("Items should only contain text");
+                valid = false;
             } else {
                 $("#error_items_" + itemIndex).text("");
             }
